@@ -1,7 +1,8 @@
 {
   "name": "Weather App",
   "short_name": "Weather",
-  "start_url": "./index.html",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
@@ -18,3 +19,4 @@
     }
   ]
 }
+
