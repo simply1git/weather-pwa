@@ -1,6 +1,8 @@
+console.log('Start path:', window.location.pathname);
+
 async function getWeather() {
   const city = document.getElementById("cityInput").value;
-  const apiKey = "a45a895574bd608bbfffd8b35111ef52"; // Replace with your actual API key
+  const apiKey = "YOUR_API_KEY_HERE";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   try {
@@ -33,3 +35,4 @@ if ('serviceWorker' in navigator) {
       .catch(err => console.log("❌ Service Worker failed", err));
   });
 }
+
