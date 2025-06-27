@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // replace with your API key
+const apiKey = "a45a895574bd608bbfffd8b35111ef52"; // replace with your API key
 const cityInput = document.getElementById("cityInput");
 
 document.getElementById("toggleTheme").addEventListener("click", () => {
